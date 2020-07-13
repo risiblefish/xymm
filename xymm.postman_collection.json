@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "9447fe16-e6e0-440d-a5cc-04e20e52a5ed",
+		"name": "xymm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "添加候选人",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "   {\n        \"userName\" : \"sean2\",\n\n        \"openId\" : \"test2\",\n\n        \"phone\" : \"1232\",\n\n        \"email\" : \"1234567b@qq.com\",\n\n        \"pid\" : \"1\"\n   } ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/partner/candidate",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"partner",
+						"candidate"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
