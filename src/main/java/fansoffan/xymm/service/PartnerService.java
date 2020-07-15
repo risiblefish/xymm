@@ -4,6 +4,7 @@ import fansoffan.xymm.bean.Partner;
 import fansoffan.xymm.entity.PartnerEntity;
 import fansoffan.xymm.repo.PartnerRepo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,6 +17,7 @@ import java.util.Optional;
 public class PartnerService {
 
     private PartnerRepo partnerRepo;
+
 
     @Autowired
     public PartnerService(final PartnerRepo partnerRepo) {
